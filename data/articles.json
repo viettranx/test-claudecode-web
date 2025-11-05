@@ -1,0 +1,194 @@
+[
+  {
+    "id": "1",
+    "title": "10 Best Practices for React Performance Optimization",
+    "description": "Learn how to optimize your React applications for better performance with these proven techniques and best practices.",
+    "url": "https://example.com/react-performance",
+    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&q=80",
+    "source": {
+      "name": "Dev.to",
+      "logo": "https://dev-to-uploads.s3.amazonaws.com/uploads/logos/resized_logo_UQwHoNl.png"
+    },
+    "publishedAt": "2025-11-04T10:30:00Z",
+    "tags": ["React", "Performance", "JavaScript"],
+    "readTime": 8,
+    "upvotes": 234,
+    "comments": 45
+  },
+  {
+    "id": "2",
+    "title": "Building Scalable Microservices with Node.js",
+    "description": "A comprehensive guide to designing and implementing microservices architecture using Node.js and best practices.",
+    "url": "https://example.com/nodejs-microservices",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80",
+    "source": {
+      "name": "Medium",
+      "logo": "https://miro.medium.com/v2/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+    },
+    "publishedAt": "2025-11-04T09:15:00Z",
+    "tags": ["Node.js", "Microservices", "Backend"],
+    "readTime": 12,
+    "upvotes": 567,
+    "comments": 89
+  },
+  {
+    "id": "3",
+    "title": "Introduction to WebAssembly: The Future of Web Development",
+    "description": "Explore WebAssembly and how it's revolutionizing web development by bringing near-native performance to browsers.",
+    "url": "https://example.com/webassembly-intro",
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&q=80",
+    "source": {
+      "name": "freeCodeCamp",
+      "logo": "https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg"
+    },
+    "publishedAt": "2025-11-03T14:20:00Z",
+    "tags": ["WebAssembly", "Web", "Performance"],
+    "readTime": 10,
+    "upvotes": 892,
+    "comments": 123
+  },
+  {
+    "id": "4",
+    "title": "CSS Grid vs Flexbox: When to Use What",
+    "description": "Understanding the differences between CSS Grid and Flexbox and making the right choice for your layouts.",
+    "url": "https://example.com/grid-vs-flexbox",
+    "image": "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?w=800&q=80",
+    "source": {
+      "name": "CSS-Tricks",
+      "logo": "https://css-tricks.com/wp-content/uploads/2021/07/css-tricks-star.png"
+    },
+    "publishedAt": "2025-11-03T11:45:00Z",
+    "tags": ["CSS", "Layout", "Frontend"],
+    "readTime": 6,
+    "upvotes": 445,
+    "comments": 67
+  },
+  {
+    "id": "5",
+    "title": "Getting Started with TypeScript in 2025",
+    "description": "A beginner-friendly guide to TypeScript covering the fundamentals and modern best practices.",
+    "url": "https://example.com/typescript-2025",
+    "image": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=800&q=80",
+    "source": {
+      "name": "Smashing Magazine",
+      "logo": "https://www.smashingmagazine.com/images/logo/logo.svg"
+    },
+    "publishedAt": "2025-11-02T16:30:00Z",
+    "tags": ["TypeScript", "JavaScript", "Tutorial"],
+    "readTime": 15,
+    "upvotes": 1023,
+    "comments": 156
+  },
+  {
+    "id": "6",
+    "title": "Docker Best Practices for Production Environments",
+    "description": "Essential tips and best practices for deploying Docker containers in production environments.",
+    "url": "https://example.com/docker-production",
+    "image": "https://images.unsplash.com/photo-1605745341112-85968b19335b?w=800&q=80",
+    "source": {
+      "name": "Docker Blog",
+      "logo": "https://www.docker.com/wp-content/uploads/2022/03/Docker-Logo-Blue.png"
+    },
+    "publishedAt": "2025-11-02T13:00:00Z",
+    "tags": ["Docker", "DevOps", "Deployment"],
+    "readTime": 9,
+    "upvotes": 678,
+    "comments": 92
+  },
+  {
+    "id": "7",
+    "title": "Understanding GraphQL: A Complete Guide",
+    "description": "Learn GraphQL from scratch including queries, mutations, subscriptions, and best practices.",
+    "url": "https://example.com/graphql-guide",
+    "image": "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800&q=80",
+    "source": {
+      "name": "Apollo Blog",
+      "logo": "https://www.apollographql.com/apollo-logo.svg"
+    },
+    "publishedAt": "2025-11-01T10:00:00Z",
+    "tags": ["GraphQL", "API", "Backend"],
+    "readTime": 14,
+    "upvotes": 934,
+    "comments": 134
+  },
+  {
+    "id": "8",
+    "title": "Tailwind CSS 4.0: What's New",
+    "description": "Explore the new features and improvements in Tailwind CSS 4.0 and how to upgrade your projects.",
+    "url": "https://example.com/tailwind-4",
+    "image": "https://images.unsplash.com/photo-1523437113738-bbd3cc89fb19?w=800&q=80",
+    "source": {
+      "name": "Tailwind Labs",
+      "logo": "https://tailwindcss.com/_next/static/media/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8.svg"
+    },
+    "publishedAt": "2025-10-31T15:45:00Z",
+    "tags": ["Tailwind", "CSS", "Frontend"],
+    "readTime": 7,
+    "upvotes": 1245,
+    "comments": 201
+  },
+  {
+    "id": "9",
+    "title": "Securing Your API with JWT and OAuth 2.0",
+    "description": "A comprehensive guide to implementing authentication and authorization in your APIs.",
+    "url": "https://example.com/api-security",
+    "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=800&q=80",
+    "source": {
+      "name": "Auth0 Blog",
+      "logo": "https://cdn.auth0.com/blog/logos/auth0.svg"
+    },
+    "publishedAt": "2025-10-31T12:20:00Z",
+    "tags": ["Security", "Authentication", "API"],
+    "readTime": 11,
+    "upvotes": 756,
+    "comments": 98
+  },
+  {
+    "id": "10",
+    "title": "Machine Learning with Python: A Beginner's Guide",
+    "description": "Start your journey into machine learning with Python using popular libraries like scikit-learn and TensorFlow.",
+    "url": "https://example.com/ml-python",
+    "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&q=80",
+    "source": {
+      "name": "Towards Data Science",
+      "logo": "https://miro.medium.com/v2/resize:fill:176:176/1*6_fgYnisCa9V21mymySIvA.png"
+    },
+    "publishedAt": "2025-10-30T09:30:00Z",
+    "tags": ["Python", "Machine Learning", "AI"],
+    "readTime": 16,
+    "upvotes": 1456,
+    "comments": 234
+  },
+  {
+    "id": "11",
+    "title": "Next.js 15: Server Components and New Features",
+    "description": "Deep dive into Next.js 15's Server Components, improved routing, and performance enhancements.",
+    "url": "https://example.com/nextjs-15",
+    "image": "https://images.unsplash.com/photo-1618477388954-7852f32655ec?w=800&q=80",
+    "source": {
+      "name": "Vercel Blog",
+      "logo": "https://assets.vercel.com/image/upload/front/favicon/vercel/180x180.png"
+    },
+    "publishedAt": "2025-10-30T14:00:00Z",
+    "tags": ["Next.js", "React", "Frontend"],
+    "readTime": 13,
+    "upvotes": 1123,
+    "comments": 167
+  },
+  {
+    "id": "12",
+    "title": "PostgreSQL Performance Tuning Tips",
+    "description": "Optimize your PostgreSQL database with these proven performance tuning techniques and configurations.",
+    "url": "https://example.com/postgres-tuning",
+    "image": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=800&q=80",
+    "source": {
+      "name": "PostgreSQL Weekly",
+      "logo": "https://wiki.postgresql.org/images/a/a4/PostgreSQL_logo.3colors.svg"
+    },
+    "publishedAt": "2025-10-29T11:15:00Z",
+    "tags": ["PostgreSQL", "Database", "Performance"],
+    "readTime": 10,
+    "upvotes": 623,
+    "comments": 74
+  }
+]

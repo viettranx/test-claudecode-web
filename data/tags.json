@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1",
+    "name": "JavaScript",
+    "color": "#F7DF1E"
+  },
+  {
+    "id": "2",
+    "name": "React",
+    "color": "#61DAFB"
+  },
+  {
+    "id": "3",
+    "name": "TypeScript",
+    "color": "#3178C6"
+  },
+  {
+    "id": "4",
+    "name": "Node.js",
+    "color": "#339933"
+  },
+  {
+    "id": "5",
+    "name": "Python",
+    "color": "#3776AB"
+  },
+  {
+    "id": "6",
+    "name": "CSS",
+    "color": "#1572B6"
+  },
+  {
+    "id": "7",
+    "name": "DevOps",
+    "color": "#FF6B6B"
+  },
+  {
+    "id": "8",
+    "name": "Machine Learning",
+    "color": "#FF6F00"
+  },
+  {
+    "id": "9",
+    "name": "Web",
+    "color": "#00D8FF"
+  },
+  {
+    "id": "10",
+    "name": "Backend",
+    "color": "#68A063"
+  }
+]
