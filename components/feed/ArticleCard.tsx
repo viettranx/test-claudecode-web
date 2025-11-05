@@ -1,6 +1,7 @@
 import React from 'react';
 import { Article } from '@/types/article';
 import Image from 'next/image';
+import Link from 'next/link';
 
 interface ArticleCardProps {
   article: Article;
@@ -19,7 +20,8 @@ export default function ArticleCard({ article }: ArticleCardProps) {
   };
 
   return (
-    <article className="bg-gray-800 rounded-2xl overflow-hidden hover:ring-2 hover:ring-purple-500 transition-all duration-200 group cursor-pointer">
+    <Link href={`/article/${article.id}`} className="block">
+      <article className="bg-gray-800 rounded-2xl overflow-hidden hover:ring-2 hover:ring-purple-500 transition-all duration-200 group cursor-pointer h-full">
       {/* Image */}
       <div className="relative h-48 w-full overflow-hidden bg-gray-700">
         <Image
@@ -78,7 +80,7 @@ export default function ArticleCard({ article }: ArticleCardProps) {
         <div className="flex items-center justify-between pt-3 border-t border-gray-700">
           <div className="flex items-center space-x-4">
             {/* Upvotes */}
-            <button className="flex items-center space-x-1 text-gray-400 hover:text-purple-400 transition-colors">
+            <div className="flex items-center space-x-1 text-gray-400">
               <svg
                 className="w-5 h-5"
                 fill="none"
@@ -91,10 +93,10 @@ export default function ArticleCard({ article }: ArticleCardProps) {
                 <path d="M5 15l7-7 7 7"></path>
               </svg>
               <span className="text-sm">{article.upvotes}</span>
-            </button>
+            </div>
 
             {/* Comments */}
-            <button className="flex items-center space-x-1 text-gray-400 hover:text-purple-400 transition-colors">
+            <div className="flex items-center space-x-1 text-gray-400">
               <svg
                 className="w-5 h-5"
                 fill="none"
@@ -107,7 +109,7 @@ export default function ArticleCard({ article }: ArticleCardProps) {
                 <path d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
               </svg>
               <span className="text-sm">{article.comments}</span>
-            </button>
+            </div>
           </div>
 
           {/* Read time */}
@@ -117,5 +119,6 @@ export default function ArticleCard({ article }: ArticleCardProps) {
         </div>
       </div>
     </article>
+    </Link>
   );
 }
