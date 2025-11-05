@@ -88,6 +88,63 @@ You can easily customize the app by:
 3. **Changing colors**: Modify Tailwind classes in components
 4. **Adding features**: Create new components in the `components` directory
 
+## Deployment
+
+### Deploy to Netlify
+
+This project includes automatic deployment to Netlify via GitHub Actions.
+
+#### Setup Instructions:
+
+1. **Create a Netlify account** at [netlify.com](https://netlify.com)
+
+2. **Create a new site** on Netlify:
+   - Go to Sites → Add new site → Import an existing project
+   - Skip the Git connection (we'll use GitHub Actions)
+   - Or create a new site from the Netlify CLI
+
+3. **Get your Netlify credentials**:
+   - **NETLIFY_AUTH_TOKEN**:
+     - Go to User Settings → Applications → Personal Access Tokens
+     - Create a new access token
+   - **NETLIFY_SITE_ID**:
+     - Go to Site Settings → General → Site details
+     - Copy the API ID
+
+4. **Add secrets to your GitHub repository**:
+   - Go to your GitHub repository
+   - Settings → Secrets and variables → Actions
+   - Add two secrets:
+     - `NETLIFY_AUTH_TOKEN`: Your Netlify personal access token
+     - `NETLIFY_SITE_ID`: Your Netlify site ID
+
+5. **Deploy**:
+   - Push to the `main` branch or create a pull request
+   - GitHub Actions will automatically build and deploy your site
+   - Check the Actions tab to see deployment progress
+
+#### Manual Deployment:
+
+You can also deploy manually using Netlify CLI:
+
+```bash
+# Install Netlify CLI
+npm install -g netlify-cli
+
+# Login to Netlify
+netlify login
+
+# Deploy
+netlify deploy --prod
+```
+
+### Other Deployment Options
+
+- **Vercel**: Click the "Deploy" button on [vercel.com](https://vercel.com)
+- **AWS Amplify**: Connect your repository in the Amplify console
+- **GitHub Pages**: Build and deploy static export
+- **Docker**: Create a Dockerfile and deploy to any container platform
+
 ## License
 
 MIT
